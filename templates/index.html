@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>پریا | استودیو طراحی وب</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="header" id="home">
+<nav class="nav container"><a class="logo" href="#home"><span>P</span> پریا</a><button class="menu-btn" aria-label="منو">☰</button>
+<div class="nav-links"><a href="#home">خانه</a><a href="#services">خدمات</a><a href="#works">نمونه‌کارها</a><a href="#about">درباره ما</a><a href="#contact" class="nav-cta">شروع پروژه</a></div></nav>
+<div class="hero container"><div class="hero-copy"><p class="eyebrow">استودیو طراحی دیجیتال</p><h1>ایده‌ات را به یک<br><span>تجربه دیجیتال</span> تبدیل کن.</h1><p class="hero-text">برای کسب‌وکارهایی که می‌خواهند حرفه‌ای دیده شوند، وب‌سایت‌هایی زیبا، سریع و کاربردی طراحی می‌کنیم.</p><div class="hero-actions"><a class="btn primary" href="#contact">ثبت درخواست پروژه <b>←</b></a><a class="btn ghost" href="#works">دیدن نمونه‌کارها</a></div><div class="stats"><div><strong>۳۵+</strong><span>پروژه موفق</span></div><div><strong>۴ سال</strong><span>تجربه طراحی</span></div><div><strong>۹۸٪</strong><span>رضایت مشتری</span></div></div></div>
+<div class="hero-art"><div class="glow"></div><div class="browser-card"><div class="browser-top"><i></i><i></i><i></i><span>paria.studio</span></div><div class="browser-body"><div class="mini-label">برند شما، متفاوت‌تر</div><div class="mini-title">یک حضور آنلاین<br><b>به‌یادماندنی.</b></div><div class="mini-lines"><span></span><span></span><span></span></div><div class="mini-grid"><div></div><div></div><div></div></div></div></div><div class="floating-card"><span>✦</span><div><b>طراحی اختصاصی</b><small>متناسب با هویت برند</small></div></div></div></div>
+</header>
+<main>
+<section class="section" id="services"><div class="container"><div class="section-head"><div><p class="eyebrow">خدمات ما</p><h2>هر چیزی که برندت<br>برای شروع نیاز دارد.</h2></div><p>از ایده اولیه تا اجرای نهایی، همه‌چیز با یک نگاه یکپارچه و حرفه‌ای طراحی می‌شود.</p></div><div class="service-grid">
+<article class="service-card"><span class="number">۰۱</span><div class="icon">⌘</div><h3>طراحی وب‌سایت</h3><p>طراحی رابط کاربری مدرن و اختصاصی برای معرفی بهتر کسب‌وکار شما.</p><a href="#contact">جزئیات خدمات ←</a></article>
+<article class="service-card featured"><span class="number">۰۲</span><div class="icon">◈</div><h3>توسعه وب</h3><p>تبدیل طرح به یک وب‌سایت سریع، واکنش‌گرا و قابل استفاده در موبایل و کامپیوتر.</p><a href="#contact">جزئیات خدمات ←</a></article>
+<article class="service-card"><span class="number">۰۳</span><div class="icon">✦</div><h3>هویت بصری</h3><p>انتخاب رنگ، فونت و سبک بصری هماهنگ برای ساخت یک برند قابل تشخیص.</p><a href="#contact">جزئیات خدمات ←</a></article>
+</div></div></section>
+<section class="section works" id="works"><div class="container"><div class="section-head"><div><p class="eyebrow">نمونه‌کارها</p><h2>چند پروژه از دنیای پریا.</h2></div><p>روی هر پروژه بزن تا نسخه‌ی نمایشی آن را در یک صفحه جدا ببینی.</p></div><div class="work-grid">
+<a class="work large" href="{{ url_for('atrisaa') }}"><div class="project-visual fashion"><span>آتریسا</span><b>فروشگاه آنلاین</b></div><div class="work-info"><h3>آتریسا</h3><span>طراحی فروشگاه اینترنتی · مشاهده پروژه ←</span></div></a>
+<a class="work" href="{{ url_for('ark') }}"><div class="project-visual tech"><span>آرک</span><b>راهکارهای دیجیتال</b></div><div class="work-info"><h3>آرک</h3><span>وب‌سایت شرکتی · مشاهده پروژه ←</span></div></a>
+<a class="work" href="{{ url_for('rosha') }}"><div class="project-visual cafe"><span>روشا</span><b>کافه و رستوران</b></div><div class="work-info"><h3>روشا</h3><span>برند و وب‌سایت · مشاهده پروژه ←</span></div></a>
+</div></div></section>
+<section class="section" id="about"><div class="container about-box"><div><p class="eyebrow">چرا پریا؟</p><h2>زیبایی فقط شروع ماجراست.</h2></div><div class="about-text"><p>یک وب‌سایت حرفه‌ای فقط قرار نیست زیبا باشد؛ باید سریع، ساده، قابل اعتماد و متناسب با هدف کسب‌وکار باشد.</p><div class="checks"><span>✓ طراحی اختصاصی</span><span>✓ نمایش صحیح در موبایل</span><span>✓ تجربه کاربری ساده</span><span>✓ پشتیبانی پس از تحویل</span></div></div></div></section>
+<section class="section pricing"><div class="container"><div class="section-head center"><p class="eyebrow">پیشنهادهای ما</p><h2>پکیج مناسب کسب‌وکارت را انتخاب کن.</h2></div><div class="price-grid">
+<article class="price-card"><span>شروع</span><h3>پایه</h3><strong>۸,۹۰۰,۰۰۰ <small>تومان</small></strong><p>برای شروع یک حضور حرفه‌ای در فضای آنلاین.</p><ul><li>تا ۴ صفحه</li><li>طراحی واکنش‌گرا</li><li>فرم تماس</li></ul><a href="#contact" data-package="پایه">انتخاب پکیج</a></article>
+<article class="price-card popular"><label>پیشنهاد ویژه</label><span>محبوب‌ترین</span><h3>حرفه‌ای</h3><strong>۱۴,۹۰۰,۰۰۰ <small>تومان</small></strong><p>برای کسب‌وکارهایی که رشد و دیده‌شدن برایشان مهم است.</p><ul><li>تا ۸ صفحه</li><li>طراحی اختصاصی</li><li>انیمیشن و تعامل</li></ul><a href="#contact" data-package="حرفه‌ای">انتخاب پکیج</a></article>
+<article class="price-card"><span>پیشرفته</span><h3>اختصاصی</h3><strong>تماس بگیرید</strong><p>برای پروژه‌های بزرگ با نیازهای اختصاصی.</p><ul><li>صفحات نامحدود</li><li>امکانات سفارشی</li><li>پشتیبانی ویژه</li></ul><a href="#contact" data-package="اختصاصی">مشاوره رایگان</a></article>
+</div></div></section>
+<section class="section contact" id="contact"><div class="container contact-box"><div><p class="eyebrow">شروع یک همکاری</p><h2>ایده‌ات را برای ما تعریف کن.</h2><p>فرم را پر کن تا درخواستت ثبت شود و برای بررسی پروژه با شما تماس بگیریم.</p><div class="admin-hint">اطلاعات ثبت‌شده در پنل مدیریت قابل مشاهده است.</div></div>
+<form action="{{ url_for('submit') }}" method="post"><label>نام و نام خانوادگی<input name="full_name" type="text" placeholder="مثلاً پریا محمدی" required></label><label>شماره تماس<input name="phone" type="tel" placeholder="۰۹۱۲۱۲۳۴۵۶۷" required></label><label>پکیج انتخابی<select name="package" required><option value="">انتخاب کنید</option><option>پایه</option><option>حرفه‌ای</option><option>اختصاصی</option></select></label><label>نوع پروژه<select name="project_type"><option value="">انتخاب کنید</option><option>طراحی سایت</option><option>فروشگاه اینترنتی</option><option>سایت شرکتی</option><option>سایر</option></select></label><label>توضیح کوتاه درباره پروژه<textarea name="description" placeholder="ایده یا نیاز خود را اینجا بنویسید..." required></textarea></label><button class="btn primary" type="submit">ارسال درخواست <b>←</b></button>{% with messages=get_flashed_messages(with_categories=true) %}{% if messages %}<div class="flash-wrap">{% for category,message in messages %}<p class="flash {{ category }}">{{ message }}</p>{% endfor %}</div>{% endif %}{% endwith %}</form></div></section>
+</main>
+<footer><div class="container footer"><div><a class="logo" href="#home"><span>P</span> پریا</a><p>استودیو طراحی و توسعه وب</p></div><div class="footer-links"><a href="#services">خدمات</a><a href="#works">نمونه‌کارها</a><a href="#about">درباره ما</a><a href="#contact">تماس با ما</a></div><div class="socials"><a href="#">اینستاگرام</a><a href="#">تلگرام</a></div></div><div class="copyright">© ۱۴۰۵ پریا — تمامی حقوق محفوظ است.</div></footer>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body></html>
